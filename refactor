@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source venv/bin/activate
+
+# -w means watch the file for changes and restart the server
+# chainlit run src/refactored.py -w -d
+chainlit run src/refactored.py -w

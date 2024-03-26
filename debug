@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source venv/bin/activate
+
+# -w means watch the file for changes and restart the server
+chainlit run src/try.py -w -h
